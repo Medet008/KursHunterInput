@@ -7,11 +7,7 @@ namespace robocop
 {
     public class robotNet : MonoBehaviour
     {
-        void Start()
-        {
-
-        }
-
+       
         [SerializeField] private float Spead;
         [SerializeField] private float rotationSpeed;
 
@@ -32,8 +28,6 @@ namespace robocop
 
             transform.Translate(runs);
             transform.Rotate(mouse);
-
-
         }
     }
 }
